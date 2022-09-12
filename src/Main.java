@@ -69,6 +69,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Месяца с таким номером не существует.");
+
         }
     }
 }
