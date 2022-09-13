@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Задача 4.");
         int DeliveryDistance = 95;
         if (DeliveryDistance <= 20) {
