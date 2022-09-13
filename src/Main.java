@@ -30,11 +30,11 @@ public class Main {
         }
         System.out.println(" ");
         System.out.println("Задача 4.");
-        int deliveryDistance = 95;
-        if (deliveryDistance <= 20) {
+        int DeliveryDistance = 95;
+        if (DeliveryDistance <= 20) {
             System.out.println("Потребуется дней: 1");
         } else {
-            int AmountDays = (deliveryDistance - 20);
+            int AmountDays = (DeliveryDistance - 20);
             if ((AmountDays % 40 == 0)) {
                 int NewAmountDays = (AmountDays / 40) + 1;
                 System.out.println("Потребуется дней: " + NewAmountDays);
